@@ -1,0 +1,53 @@
+{
+  "name": "programmer-inc-backend",
+  "description": "Programmer Incorporated Website Back-End",
+  "private": true,
+  "version": "0.1.0",
+  "author": {
+    "name": "Programmer Incorporated",
+    "email": "programmer.incorporated@gmail.com",
+    "url": "https://programmer.inc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammerInc/programmer-inc-backend.git"
+  },
+  "license": "MIT",
+  "homepage": "https://programmer.inc",
+  "bugs": {
+    "url": "https://github.com/ProgrammerInc/programmer-inc-backend/issues"
+  },
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "knex": "<0.20.0",
+    "path": "^0.12.7",
+    "pg": "^8.3.3",
+    "sqlite3": "latest",
+    "strapi": "3.1.4",
+    "strapi-admin": "3.1.4",
+    "strapi-connector-bookshelf": "3.1.4",
+    "strapi-plugin-content-manager": "3.1.4",
+    "strapi-plugin-content-type-builder": "3.1.4",
+    "strapi-plugin-documentation": "^3.1.4",
+    "strapi-plugin-email": "3.1.4",
+    "strapi-plugin-graphql": "^3.1.4",
+    "strapi-plugin-upload": "3.1.4",
+    "strapi-plugin-users-permissions": "3.1.4",
+    "strapi-utils": "3.1.4"
+  },
+  "strapi": {
+    "uuid": "cf47a101-cdd3-4dee-a066-6f6d97a3d6a3"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
+}
